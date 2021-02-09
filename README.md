@@ -16,5 +16,5 @@ Create build
 npm run build
 ```
 
-`Warning`
+## Warning
 Don't change file name in src directory
