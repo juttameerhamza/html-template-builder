@@ -1,0 +1,13 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ejs.min.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "node ./lib/builder.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
