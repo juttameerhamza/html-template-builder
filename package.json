@@ -5,12 +5,16 @@
   "main": "ejs.min.js",
   "scripts": {
     "start": "live-server",
-    "build": "node ./lib/builder.js"
+    "build": "node ./lib/builder.js",
+    "build:prev": "node ./lib/builder.js --preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6"
   }
 }
