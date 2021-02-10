@@ -23,7 +23,10 @@
                     skills: ['HTML', 'CSS', 'JavaScript']
                 });
 
-                document.querySelector('#root').innerHTML = template;
+                // document.querySelector('#root').innerHTML = template;
+                document.querySelector('#root').parentElement.insertAdjacentHTML('afterbegin', template);
+                document.querySelector('#root').remove();
+                // document.querySelector('body').innerHTML = template;
             } catch (error) {
                 console.log(error);
             }
